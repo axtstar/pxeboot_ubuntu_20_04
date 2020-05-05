@@ -4,7 +4,7 @@ LABEL maintainer: "axt_star@hotmail.com"
 
 #get netboot.tar.gz and extract to tftp root dir
 WORKDIR /srv/tftp/
-RUN mkdir -p /srv/tftp/ && wget http://archive.ubuntu.com/ubuntu/dists/bionic-updates/main/installer-amd64/current/images/netboot/netboot.tar.gz \
+RUN mkdir -p /srv/tftp/ && wget http://archive.ubuntu.com/ubuntu/dists/focal/main/installer-amd64/current/legacy-images/netboot/netboot.tar.gz \
 && tar xvfz netboot.tar.gz
 
 ## replace default as own ip

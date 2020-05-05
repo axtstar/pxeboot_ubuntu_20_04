@@ -55,12 +55,12 @@ iprange_high=192.168.0.245
 server_ip=192.168.0.1
 
 #http(actual iso path)
-foscal=/home/axt/Downloads/focal-live-server-amd64.iso
+focal=/home/axt/Downloads/focal-live-server-amd64.iso
 ```
 
-You have to download foscal-live-server iso image from ubuntu (mirror) server.
+You have to download focal-live-server iso image from ubuntu (mirror) server.
 
-**And be determined where is the path as environment variable 'foscal' by the .env file like the above**.
+**And be determined where is the path as environment variable 'focal' by the .env file like the above**.
 
 That is prerequired.
 
