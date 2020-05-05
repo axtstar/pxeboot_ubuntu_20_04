@@ -1,3 +1,7 @@
+# Ubuntu 20.04 server network install environment by docker-compose
+
+This is the docker-compose environment for pxe boot.
+
 # Motivation
 
 Set up ubuntu server is mess.
@@ -58,7 +62,7 @@ You have to download foscal-live-server iso image from ubuntu (mirror) server.
 
 **And be determined where is the path as environment variable 'foscal' by the .env file like the above**.
 
-That was prerequired.
+That is prerequired.
 
 Then, server and target client is connected locally.
 (Crossover cable or HUB not connected others)
