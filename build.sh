@@ -1,0 +1,1 @@
+docker build . -t pxeboot-ubuntu-20.04

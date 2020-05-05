@@ -1,0 +1,5 @@
+DEFAULT install
+LABEL install
+  KERNEL vmlinuz
+  INITRD initrd
+  APPEND ip=dhcp url=http://$server_ip/focal-live-server-amd64.iso

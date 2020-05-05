@@ -1,0 +1,6 @@
+interface=$interface,lo
+bind-interfaces
+dhcp-range=$interface,$iprange_low,$iprange_high
+dhcp-boot=pxelinux.0
+enable-tftp
+tftp-root=/srv/tftp
