@@ -60,6 +60,10 @@ focal=/home/axt/Downloads/focal-live-server-amd64.iso
 
 You have to download focal-live-server iso image from ubuntu (mirror) server.
 
+**And mount it to /mnt/cd which uses by docker-compose**.
+
+> sudo mount <download path> /mnt/cd
+
 **And be determined where is the path as environment variable 'focal' by the .env file like the above**.
 
 That is prerequired.
