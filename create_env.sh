@@ -5,6 +5,5 @@ echo 'iprange_low='$(for e in $(ls -l /sys/class/net/ | grep -v virtual  | grep 
 echo 'iprange_high='$(for e in $(ls -l /sys/class/net/ | grep -v virtual  | grep -v 'total' | awk '{print $9}'); do ifconfig | grep -1 $e | grep inet | awk '{print $2}';done | awk 'BEGIN{ FS = "."} {print $1"."$2"."$3".245"}')
 echo '#server ip'
 echo 'server_ip='$(for e in $(ls -l /sys/class/net/ | grep -v virtual  | grep -v 'total' | awk '{print $9}'); do ifconfig | grep -1 $e | grep inet | awk '{print $2}';done)
-
 echo '#http'
-echo 'focal=/home/'$(whoami)'/Downloads/focal-live-server-amd64.iso'
+echo 'focal=/home/'$(whoami)'/Downloads/ubuntu-20.04.1-live-server-amd64.iso'

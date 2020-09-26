@@ -1,5 +1,6 @@
+#default
 DEFAULT install
 LABEL install
   KERNEL vmlinuz
   INITRD initrd
-  APPEND ip=dhcp url=http://$server_ip/focal-live-server-amd64.iso
+  APPEND ip=dhcp url=http://$server_ip/ubuntu-20.04.1-live-server-amd64.iso
