@@ -14,6 +14,8 @@ services:
       - /mnt/cd/casper/vmlinuz:/srv/tftp/vmlinuz
       - /mnt/cd/casper/initrd:/srv/tftp/initrd
     network_mode: "host"
+    cap_add:
+        - NET_ADMIN
 
   http_server:
     container_name: http-server
